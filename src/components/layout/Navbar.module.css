@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.active {
+  font-weight: bolder;
+  border-bottom: 3px #32a852 solid;
+}
+
+.bigLink {
+  font-size: x-large;
+  color: #000000;
+  text-decoration: none;
+
+  padding-bottom: 10px;
+  margin-right: 25px;
+}
+
+.bigLink:hover {
+  border-bottom: 3px #325da8 solid;
+}
+
+.loginContainer {
+  margin-left: auto;
+}
+
+.smallLink {
+  color: #8a8a8a;
+
+  margin-left: 20px;
+}
+
+.smallLink:hover {
+  color: #000000;
+}

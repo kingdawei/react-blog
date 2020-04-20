@@ -1,0 +1,44 @@
+.container {
+  border: 1px solid #8a8a8a;
+  margin: 50px 100px;
+  padding: 25px;
+}
+
+.authorCont {
+  display: flex;
+  align-items: center;
+}
+
+.descCont {
+  display: block;
+  margin-left: 20px;
+}
+
+.titleCont {
+  display: flex;
+  align-items: center;
+}
+
+.titleCont h2 {
+  margin-right: 15px;
+}
+
+.photo {
+  object-fit: cover;
+  height: 75px;
+  width: 75px;
+  border: 1px solid #8a8a8a;
+}
+
+.author {
+  font-weight: normal;
+  margin: 0px;
+}
+
+.title {
+  margin: 0px;
+}
+
+.date {
+  color: #8c8c8c;
+}
